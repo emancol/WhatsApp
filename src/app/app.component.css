@@ -1,0 +1,42 @@
+
+header{
+    height: 13.2vh;
+    background-color:  var(  --header-background-color-light);
+}
+
+main{
+    height: 86.8vh;
+    background-color: var( --main-background-color-light);
+}
+
+#chat-container{
+    position: fixed;
+    top: 0%;;
+    bottom: 0%;
+    margin: auto;
+    width: 78%;
+    height: 96%;
+    background-color: var(--chat-container-background-color-light);
+    right: 0px;
+    left: 0px;
+    
+}
+
+@media only screen and (max-width: 1600px) {
+    #chat-container{
+        height: 96%;
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 1441px) {
+    #chat-container{
+        height: 96%;
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 1311px) {
+    #chat-container{
+        height: 100vh;
+        width: 100%;
+    }
+}
